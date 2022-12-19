@@ -155,6 +155,8 @@ If you have made a notable fork or translation that is not suitable for a pull r
   - [7.2 Texture Density Should Be Uniform](#textures-density)
   - [7.3 Textures Should Be No Bigger than 8192](#textures-max-size)
   - [7.4 Textures Should Be Grouped Correctly](#textures-group)
+- [8. Performance(#performance)
+  - [8.1 Quest 2(#performance-quest2)
 
 ## Important Terminology
 
@@ -1432,6 +1434,25 @@ No texture should have a dimension that exceeds 8192 in size, unless you have a 
 ### 7.4 Textures Should Be Grouped Correctly
 
 Every texture has a Texture Group property used for LODing, and this should be set correctly based on its use. For example, all UI textures should belong in the UI texture group.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+<a name="8"></a>
+<a name="performance"></a>
+## 8. Performance
+
+This section will focus on performance baselines for the most common VR platforms.
+
+<a name="8.1"></a>
+<a name="performance-quest2"></a>
+### 8.1 Quest 2 (72 fps)
+
+| Stat                    | Value      |
+| ----------------------- | ---------- |
+| Draws                   | 300        |
+| Prims                   | 500k       |
+
 
 **[⬆ Back to Top](#table-of-contents)**
 
