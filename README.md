@@ -155,8 +155,8 @@ If you have made a notable fork or translation that is not suitable for a pull r
   - [7.2 Texture Density Should Be Uniform](#textures-density)
   - [7.3 Textures Should Be No Bigger than 8192](#textures-max-size)
   - [7.4 Textures Should Be Grouped Correctly](#textures-group)
-- [8. Performance(#performance)
-  - [8.1 Quest 2(#performance-quest2)
+- [8. Performance](#performance)
+  - [8.1 Quest 2](#performance-quest2)
 
 ## Important Terminology
 
