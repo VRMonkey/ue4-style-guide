@@ -193,7 +193,7 @@ The words 'variable' and 'property' in most contexts are interchangable. If they
 
 <a name="terms-property"></a>
 ###### Property
-Usually refers to a variable defined in a class. For example, if `BP_Barrel` had a variable `bExploded`, `bExploded` may be referred to as a property of `BP_Barrel`.
+Usually refers to a variable defined in a class. For example, if `B_Barrel` had a variable `bExploded`, `bExploded` may be referred to as a property of `B_Barrel`.
 
 When in the context of a class, it is often used to imply accessing previously defined data.
 
@@ -343,7 +343,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Level (Lighting)        |            | _Lighting  |                                  |
 | Level (Geometry)        |            | _Geo       |                                  |
 | Level (Gameplay)        |            | _Gameplay  |                                  |
-| Blueprint               | BP_        |            |                                  |
+| Blueprint               | B_         |            |                                  |
 | Material                | M_         |            |                                  |
 | Static Mesh             | S_         |            | Many use SM_. We use S_.         |
 | Skeletal Mesh           | SK_        |            |                                  |
@@ -393,8 +393,8 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Blueprint               | BP_        |            |                                  |
-| Blueprint Component     | BP_        | Component  | I.e. BP_InventoryComponent       |
+| Blueprint               | B_         |            |                                  |
+| Blueprint Component     | B_         | Component  | I.e. B_InventoryComponent        |
 | Blueprint Function Library | BPFL_   |            |                                  |
 | Blueprint Interface     | BPI_       |            |                                  |
 | Blueprint Macro Library | BPML_      |            | Do not use macro libraries if possible. |
@@ -877,7 +877,7 @@ All variable names must not be redundant with their context as all variable refe
 <a name="3.2.1.5e"></a>
 ###### 3.2.1.5e Examples
 
-Consider a Blueprint called `BP_PlayerCharacter`.
+Consider a Blueprint called `B_PlayerCharacter`.
 
 **Bad**
 
@@ -888,7 +888,7 @@ Consider a Blueprint called `BP_PlayerCharacter`.
 * `CharacterSkills`
 * `ChosenCharacterSkin`
 
-All of these variables are named redundantly. It is implied that the variable is representative of the `BP_PlayerCharacter` it belongs to because it is `BP_PlayerCharacter` that is defining these variables.
+All of these variables are named redundantly. It is implied that the variable is representative of the `B_PlayerCharacter` it belongs to because it is `B_PlayerCharacter` that is defining these variables.
 
 **Good**
 
@@ -929,13 +929,13 @@ Non-atomic or complex variables are variables that represent data as a collectio
 
 These variables should include their type name while still considering their context.
 
-If a class owns an instance of a complex variable, i.e. if a `BP_PlayerCharacter` owns a `BP_Hat`, it should be stored as the variable type as without any name modifications.
+If a class owns an instance of a complex variable, i.e. if a `B_PlayerCharacter` owns a `B_Hat`, it should be stored as the variable type as without any name modifications.
 
 Example: Use `Hat`, `Flag`, and `Ability` **not** `MyHat`, `MyFlag`, and `PlayerAbility`.
 
 If a class does not own the value a complex variable represents, you should use a noun along with the variable type.
 
-Example: If a `BP_Turret` has the ability to target a `BP_PlayerCharacter`, it should store its target as `TargetPlayer` as when in the context of `BP_Turret` it should be clear that it is a reference to another complex variable type that it does not own.
+Example: If a `B_Turret` has the ability to target a `B_PlayerCharacter`, it should store its target as `TargetPlayer` as when in the context of `B_Turret` it should be clear that it is a reference to another complex variable type that it does not own.
 
 
 <a name="3.2.1.8"></a>
