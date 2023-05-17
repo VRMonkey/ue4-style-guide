@@ -349,7 +349,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 | Particle System         | PS_        |            |                                  |
-| Widget Blueprint        | WBP_       |            |                                  |
+| Widget Blueprint        | W_         |            |                                  |
 
 
 
@@ -404,7 +404,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Enumeration             | E_         |            |                                  |
 | Structure               | S_         |            |                                  |
 | Tutorial Blueprint      | TBP_       |            |                                  |
-| Widget Blueprint        | WBP_       |            |                                  |
+| Widget Blueprint        | W_         |            |                                  |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
