@@ -341,7 +341,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Level (Persistent)      |            | _P         |                                  |
 | Level (Audio)           |            | _Audio     |                                  |
 | Level (Lighting)        |            | _Lighting  |                                  |
-| Level (Static)          |            | _Static    |                                  |
+| Level (Geometry)        |            | _Geo       |                                  |
 | Level (Gameplay)        |            | _Gameplay  |                                  |
 | Blueprint               | BP_        |            |                                  |
 | Material                | M_         |            |                                  |
@@ -349,7 +349,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 | Particle System         | PS_        |            |                                  |
-| Widget Blueprint        | W_         |            |                                  |
+| Widget Blueprint        | WBP_       |            |                                  |
 
 
 
@@ -404,7 +404,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Enumeration             | E_         |            |                                  |
 | Structure               | S_         |            |                                  |
 | Tutorial Blueprint      | TBP_       |            |                                  |
-| Widget Blueprint        | W_         |            |                                  |
+| Widget Blueprint        | WBP_       |            |                                  |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
@@ -536,7 +536,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | FontFace                | FF_        |            |                                  |
 | Slate Brush             | Brush_     |            |                                  |
 | Slate Widget Style      | Style_     |            |                                  |
-| Widget Blueprint        | W_         |            |                                  |
+| Widget Blueprint        | WBP_       |            |                                  |
 
 <a name="anc-effects"></a>
 <a name="1.2.12"></a>
