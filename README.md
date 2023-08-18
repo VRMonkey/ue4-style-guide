@@ -420,6 +420,10 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Subsurface Profile            | SP_        |            |                                  |
 | Physical Materials            | PM_        |            |                                  |
 | Decal                         | M_, MI_    | _Decal     |                                  |
+| Material Layer                | ML_        |            |                                  |
+| Material Layer Instance       | MLI_       |            |                                  |
+| Material Layer Blend          | MLB_       |            |                                  |
+| Material Layer Blend Instance | MLBI_      |            |                                  |
 
 <a name="anc-textures"></a>
 <a name="1.2.6"></a>
