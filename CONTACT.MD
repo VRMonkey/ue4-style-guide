@@ -1,0 +1,1 @@
+If you would like to help contribute to the style guide but your contribution needs to be discussed either with an NDA or some sort of encryption, you can contact the owner of this repo Michael Allar with the email `allar+style AT gamemak.in`.
