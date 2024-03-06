@@ -452,6 +452,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Cube Render Target      | RTCUBE_    |            |                                  |
 | Canvas Render Target    | RTCANVAS_  |            |                                  |
 | Texture Light Profile   | TLP_       |            |                                  |
+| Texture User Interface  | T_         | _UI        | Should have it's texture group set to UI. |
 
 <a name="anc-textures-packing"></a>
 <a name="1.2.6.1"></a>
