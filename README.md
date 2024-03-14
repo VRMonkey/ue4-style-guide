@@ -574,94 +574,93 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 ### 2e1 Example Project Content Structure
 <pre>
 |-- Content/
-    |-- PacoteExternoQueAindaNãoFoiIntegradoCompletamente/
-    |-- Developers/ (Pasta usada para coisas que não estão prontas o suficiente pra estar no projeto)
-    |   |-- NomeDoDesenvolvedor/
-    |   |   |-- FeatureEmDesenvolvimento/
-    |   |   |   |-- BP_BossMaluco
-    |-- NomeDoProjeto/
-    |   |-- DevTools/
-    |   |   |-- BP_DebugVisibilityTool
-    |   |-- Maps/ (Todos mapas do jogo)
-    |   |   |-- LevelA_P
-    |   |   |-- LevelA/
-    |   |   |   |-- LevelASub1_Static
-    |   |   |   |-- LevelASub2_Static
-    |   |   |   |-- LevelA_Gameplay
-    |   |   |   |-- LevelA_Audio
-    |   |   |-- MainScreen
-    |   |-- Environment/ (O que for relativo aos ambientes que não tem papel na logica do jogo. Basicamente meshes/materiais/texturas/sons/efeitos do cenário)
-    |   |   |-- InitialScreen/
-    |   |   |   |-- SM_LobbyRoom
-    |   |   |-- School/
-    |   |   |   |-- Gymnasium/
-    |   |   |   |-- ClassRooms/
-    |   |   |   |   |-- Chemistry/
-    |   |   |   |   |   |-- NS_Volcano
-    |   |   |   |-- Building/
-    |   |   |   |   |-- SM_Wall
-    |   |   |   |   |-- SM_Window
-    |   |   |-- City/
-    |   |   |   |-- Buildings/
-    |   |   |   |-- Props/
-    |   |   |-- Shared/
-    |   |   |   |-- M_MasterMaterial
-    |   |   |   |-- MI_Folliage
-    |   |-- Gameplay/ (Coisas relevantes pro jogo e dependencias como Arte/sons/Efeitos/Blueprints)
-    |   |   |-- Characters/
-    |   |   |   |-- SchoolBoy/
-    |   |   |   |   |-- BP_SchoolBoy
-    |   |   |   |   |-- Animations/
-    |   |   |   |   |   |-- ABP_SchoolBoy
-    |   |   |   |   |   |-- A_SchoolBoy_Idle
-    |   |   |   |   |   |-- A_SchoolBoy_Defeat
-    |   |   |   |   |-- SK_SchoolBoy
-    |   |   |   |   |-- PA_SchoolBoy
-    |   |   |   |-- SchoolGirl/
-    |   |   |   |-- Bosses/
-    |   |   |   |   |-- LevelA/
-    |   |   |   |   |   |-- BossFeio/
-    |   |   |   |   |   |   |-- Animations/
-    |   |   |   |   |   |   |-- Sounds/
-    |   |   |   |   |-- LevelB/
-    |   |   |   |   |   |-- BossLindo/
-    |   |   |   |   |   |   |-- Animations/
-    |   |   |   |   |   |   |-- Sounds/
-    |   |   |   |   |-- Shared/
-    |   |   |   |   |   |-- Sounds/
-    |   |   |   |   |   |   |-- SW_HitFX
-    |   |   |   |-- NPCs/
-    |   |   |   |   |-- Steve/
-    |   |   |   |   |-- Zoe/
-    |   |   |-- Engine/
-    |   |   |   |-- BP_ProjetoGameMode
-    |   |   |   |-- BP_ProjetoGameInstance
-    |   |   |   |-- BP_ProjetoGameState
-    |   |   |-- Interactables/
-    |   |   |   |-- Pickups/
-    |   |   |   |   |-- M_PickupHighlight
-    |   |   |   |   |-- BP_Health
-    |   |   |   |   |-- BP_Stamina
-    |   |   |   |   |-- Shared/
-    |   |   |   |   |   |-- BPI_Pickups
-    |   |   |   |-- Weapons/
-    |   |   |   |   |-- Shared/
-    |   |   |   |   |   |-- M_WoodMetal
-    |   |   |   |   |   |-- SW_GunShot
-    |   |   |   |   |   |-- NS_GunSparks
-    |   |   |   |   |-- Pistols/
-    |   |   |   |   |   |-- BP_DesertEagle
-    |   |   |   |   |   |-- BP_RocketPistol
-    |   |   |   |   |-- Rifles/
-    |   |   |   |-- Potions/
-    |   |   |-- Player/
-    |   |   |   |-- SK_Arms
-    |   |   |   |-- BP_VRPawn
-    |   |   |   |-- BP_Teleport
-    |   |   |-- Menus/
-    |   |   |   |-- W_DevMenu
-    |   |   |-- Shared/
-    |   |   |   |-- BPFL_UsefulFunctions
+|   |-- ExternalPackageThatWasNotYetCompletelyIntegrated/
+|   |-- Developers/ (Pasta usada para coisas que não estão prontas o suficiente pra estar no projeto)
+|   |   |-- DeveloperName/
+|   |   |   |-- FeatureInDevelopment/
+|   |   |   |   |-- BP_CrazyBoss
+|   |-- ProjectName/
+|   |   |-- DevTools/
+|   |   |   |-- BP_DebugVisibilityTool
+|   |   |-- Maps/ (Todos mapas do jogo)
+|   |   |   |-- LevelA_P
+|   |   |   |-- LevelA/
+|   |   |   |   |-- LevelASub1_Static
+|   |   |   |   |-- LevelASub2_Static
+|   |   |   |   |-- LevelA_Gameplay
+|   |   |   |   |-- LevelA_Audio
+|   |   |   |-- MainScreen
+|   |   |-- Environment/ (O que for relativo aos ambientes que não tem papel na logica do jogo. Basicamente meshes/materiais/texturas/sons/efeitos do cenário)
+|   |   |   |-- InitialScreen/
+|   |   |   |   |-- SM_LobbyRoom
+|   |   |   |-- School/
+|   |   |   |   |-- Gymnasium/
+|   |   |   |   |-- ClassRooms/
+|   |   |   |   |   |-- Chemistry/
+|   |   |   |   |   |   |-- NS_Volcano
+|   |   |   |   |-- Building/
+|   |   |   |   |   |-- SM_Wall
+|   |   |   |   |   |-- SM_Window
+|   |   |   |-- City/
+|   |   |   |   |-- Buildings/
+|   |   |   |   |-- Props/
+|   |   |   |-- Shared/
+|   |   |   |   |-- M_MasterMaterial
+|   |   |   |   |-- MI_Folliage
+|   |   |-- Characters/
+|   |   |   |-- SchoolBoy/
+|   |   |   |   |-- BP_SchoolBoy
+|   |   |   |   |-- Animations/
+|   |   |   |   |   |-- ABP_SchoolBoy
+|   |   |   |   |   |-- A_SchoolBoyIdle
+|   |   |   |   |   |-- A_SchoolBoyDefeat
+|   |   |   |   |-- SK_SchoolBoy
+|   |   |   |   |-- PA_SchoolBoy
+|   |   |   |-- SchoolGirl/
+|   |   |   |-- Bosses/
+|   |   |   |   |-- LevelA/
+|   |   |   |   |   |-- BossFeio/
+|   |   |   |   |   |   |-- Animations/
+|   |   |   |   |   |   |-- Sounds/
+|   |   |   |   |-- LevelB/
+|   |   |   |   |   |-- BossLindo/
+|   |   |   |   |   |   |-- Animations/
+|   |   |   |   |   |   |-- Sounds/
+|   |   |   |   |-- Shared/
+|   |   |   |   |   |-- Sounds/
+|   |   |   |   |   |   |-- SW_HitFX
+|   |   |   |-- NPCs/
+|   |   |   |   |-- Steve/
+|   |   |   |   |-- Zoe/
+|   |   |-- Engine/
+|   |   |   |-- BP_ProjetoGameMode
+|   |   |   |-- BP_ProjetoGameInstance
+|   |   |   |-- BP_ProjetoGameState
+|   |   |-- Interactables/
+|   |   |   |-- Pickups/
+|   |   |   |   |-- M_PickupHighlight
+|   |   |   |   |-- BP_Health
+|   |   |   |   |-- BP_Stamina
+|   |   |   |   |-- Shared/
+|   |   |   |   |   |-- BPI_Pickups
+|   |   |   |-- Weapons/
+|   |   |   |   |-- Shared/
+|   |   |   |   |   |-- M_WoodMetal
+|   |   |   |   |   |-- SW_GunShot
+|   |   |   |   |   |-- NS_GunSparks
+|   |   |   |   |-- Pistols/
+|   |   |   |   |   |-- BP_DesertEagle
+|   |   |   |   |   |-- BP_RocketPistol
+|   |   |   |   |-- Rifles/
+|   |   |   |-- Potions/
+|   |   |-- Player/
+|   |   |   |-- SK_Arms
+|   |   |   |-- BP_VRPawn
+|   |   |   |-- BP_Teleport
+|   |   |-- Menus/
+|   |   |   |-- W_DevMenu
+|   |   |-- Shared/
+|   |   |   |-- BPFL_UsefulFunctions
 </pre>
 
 The reasons for this structure are listed in the following sub-sections.
