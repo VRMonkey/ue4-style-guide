@@ -575,14 +575,14 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 <pre>
 |-- Content/
 |   |-- ExternalPackageThatWasNotYetCompletelyIntegrated/
-|   |-- Developers/ (Pasta usada para coisas que não estão prontas o suficiente pra estar no projeto)
+|   |-- Developers/ (Folder for work-in-progress features, not ready yet for the project folder)
 |   |   |-- DeveloperName/
 |   |   |   |-- FeatureInDevelopment/
 |   |   |   |   |-- BP_CrazyBoss
 |   |-- ProjectName/
 |   |   |-- DevTools/
 |   |   |   |-- BP_DebugVisibilityTool
-|   |   |-- Maps/ (Todos mapas do jogo)
+|   |   |-- Maps/ (All game maps)
 |   |   |   |-- LevelA_P
 |   |   |   |-- LevelA/
 |   |   |   |   |-- LevelASub1_Static
@@ -590,7 +590,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 |   |   |   |   |-- LevelA_Gameplay
 |   |   |   |   |-- LevelA_Audio
 |   |   |   |-- MainScreen
-|   |   |-- Environment/ (O que for relativo aos ambientes que não tem papel na logica do jogo. Basicamente meshes/materiais/texturas/sons/efeitos do cenário)
+|   |   |-- Environment/ (Related to environment that doesn't run code. Basically meshes/materials/textures/sounds/effects of scene)
 |   |   |   |-- InitialScreen/
 |   |   |   |   |-- SM_LobbyRoom
 |   |   |   |-- School/
