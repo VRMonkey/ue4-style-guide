@@ -445,13 +445,13 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Texture (Metallic)      | T_         | _M         |                                  |
 | Texture (Packed)        | T_         | _*         | See notes below about [packing](#anc-textures-packing). |
 | Texture Cube            | TC_        |            |                                  |
-| Pseudo Volume Texture   | T_         | _3D        | 2d texture with slices of a volume |
+| Pseudo Volume Texture   | T3D_       |            | 2d texture with slices of a volume |
 | Media Texture           | MT_        |            |                                  |
 | Render Target           | RT_        |            |                                  |
-| 2D Array Render Target  | RT_        | _Array     |                                  |
-| Cube Render Target      | RT_        | _Cube      |                                  |
-| Canvas Render Target    | RT_        | _Canv      |                                  |
-| Texture Light Profile   | TLP        |            |                                  |
+| 2D Array Render Target  | RTARRAY_   |            |                                  |
+| Cube Render Target      | RTCUBE_    |            |                                  |
+| Canvas Render Target    | RTCANVAS_  |            |                                  |
+| Texture Light Profile   | TLP_       |            |                                  |
 | Texture User Interface  | T_         | _UI        | Should have it's texture group set to UI. |
 
 <a name="anc-textures-packing"></a>
