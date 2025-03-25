@@ -516,7 +516,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Physics Asset           | PA_        |            |                                  |
 | Destructible Mesh       | DM_        |            |                                  |
 
-<a name="anc-sounds"></a>
+<a name="anc-s"></a>
 <a name="1.2.10"></a>
 ### 1.2.10 Sounds
 
@@ -532,6 +532,9 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Sound Cue               | SC_        |            |                                  |
 | Sound Mix               | SMX_       |            |                                  |
 | Sound Wave              | SW_        |            |                                  |
+| Meta Sound              | MS_        |            | AKA MetaSound or Metasound       |
+| Audio Buss              | ABS_       |            |                                  |
+| Sound Submix            | SSM_       |            |                                  |
 
 <a name="anc-ui"></a>
 <a name="1.2.11"></a>
