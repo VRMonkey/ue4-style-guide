@@ -516,7 +516,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Physics Asset           | PA_        |            |                                  |
 | Destructible Mesh       | DM_        |            |                                  |
 
-<a name="anc-s"></a>
+<a name="anc-sounds"></a>
 <a name="1.2.10"></a>
 ### 1.2.10 Sounds
 
